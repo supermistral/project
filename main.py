@@ -7,7 +7,7 @@ def execute():
 import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.utils import get_random_id
-from testing import vkbot
+from vk_bot import vkbot
 import function as func
 
 def msg(user_id, Message):
