@@ -1,9 +1,3 @@
-'''import sqlite3 as sql
-conn = sql.connect("db_db.sqlite")
-cur = conn.cursor()
-def execute():
-    cur.execute("CREATE TABLE IF NOT %s (id INTEGER,  )")'''
-
 import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.utils import get_random_id
